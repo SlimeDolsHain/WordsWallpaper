@@ -1,0 +1,36 @@
+#include <windows.h>
+
+#define IDI_APP 101
+
+IDI_APP ICON "icon.ico"
+1 24 "app.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "@SlimeDolsHain"
+            VALUE "FileDescription", "单词壁纸生成器"
+            VALUE "FileVersion", "1.0.0"
+            VALUE "InternalName", "WordsWallpaper"
+            VALUE "LegalCopyright", "Copyright (C) 2026 @SlimeDolsHain; AGPL-3.0"
+            VALUE "OriginalFilename", "WordsWallpaper.exe"
+            VALUE "ProductName", "WordsWallpaper 单词壁纸生成器"
+            VALUE "ProductVersion", "1.0.0"
+            VALUE "Comments", "AGPL-3.0, Windows 7+ 32/64-bit"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
